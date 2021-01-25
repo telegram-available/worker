@@ -1,6 +1,2 @@
-def checking():
-    pass
-
-
-def files_upload():
+def start():
     pass
