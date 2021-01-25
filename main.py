@@ -18,7 +18,7 @@ for file_name in os.listdir('temp/worker'):
     shutil.copy(f'temp/worker/{file_name}', file_name)
 shutil.rmtree('temp', onerror=delete)
 # ========================================================================================================
-print(f'Запуск оболочки за {objects.time_now() - stamp1} секунды')
+print(f'Запуск оболочки за {objects.time_now() - stamp1} секунд')
 
 
 if __name__ == '__main__':
